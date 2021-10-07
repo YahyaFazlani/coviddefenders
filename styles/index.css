@@ -9,7 +9,7 @@ header {
   font: 36px 'Alegreya SC', serif;
 }
 
-main  {
+main {
   display: grid;
   place-items: center;
   width: 100vw;
