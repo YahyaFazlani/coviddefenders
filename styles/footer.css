@@ -7,10 +7,11 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 100vw;
+  flex-direction: column;
   min-height: 10vh;
   background: black;
-  font: 15px 'Poppins', sans-serif;
-  padding: 0.2em 2em;
+  font: 13px 'Poppins', sans-serif;
+  padding: 0.2em 1em;
   color: #918f8ffb;
 }
 
@@ -22,7 +23,18 @@ footer a {
 
 .links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  width: 10%;
+  width: 100%;
+}
+
+@media (min-width: 1152px) {
+  footer {
+    flex-direction: row;
+    padding: 0.2em 2em;
+    font-size: 15px;
+  }
+  .links {
+    width: 20%;
+  }
 }
