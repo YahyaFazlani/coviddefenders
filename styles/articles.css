@@ -85,7 +85,7 @@ footer a {
   width: 10%;
 }
 
-@media (min-width: 1151px) {
+@media (min-width: 1152px) {
   a, .article-container {
     width: 50.75rem;
   }
@@ -93,9 +93,9 @@ footer a {
   .article-container {
     height: fit-content;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: unset;
   }
-
+  
   .article-container img {
     width: 166.06px;
     min-height: max-content;
