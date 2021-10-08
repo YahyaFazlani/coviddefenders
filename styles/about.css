@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #242424;
+  color: #FFFFFF;
+  height: 60px;
+  width: 100vw;
+  font: 40px 'Comfortaa', cursive;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  height: calc(100vh - 10vh - 60px);
+}
+
+.person {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2em;
+}
+
+.name, .job {
+  font: bold 1.3em 'Poppins', sans-serif;
+  margin-bottom: 3%;
+}
+
+.name {
+  margin-top: 2%;
+}
+
+.person img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+p {
+  font: 15px 'Poppins', sans-serif;
+  text-align: center;
+}
