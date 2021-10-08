@@ -93,6 +93,7 @@ footer a {
   .article-container {
     height: fit-content;
     flex-direction: row;
+    align-items: flex-start;
   }
 
   .article-container img {
