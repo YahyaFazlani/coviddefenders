@@ -58,33 +58,6 @@ a, .article-container {
   color: #383838;
 }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  width: 100vw;
-  min-height: 10%;
-  background: black;
-  font: 15px 'Poppins', sans-serif;
-  padding: 0.2em 2em;
-  color: #918f8ffb;
-  bottom: 0;
-}
-
-footer a {
-  color: inherit;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.links {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 10%;
-}
-
 @media (min-width: 1152px) {
   a, .article-container {
     width: 50.75rem;

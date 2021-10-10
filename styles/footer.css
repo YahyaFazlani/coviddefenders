@@ -21,10 +21,22 @@ footer a {
   text-decoration: none;
 }
 
+footer img {
+  width: 10vh;
+  height: 8vh;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+}
+
 .links {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
 }
 
