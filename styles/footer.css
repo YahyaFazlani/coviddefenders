@@ -24,6 +24,7 @@ footer a {
 footer img {
   width: 10vh;
   height: 8vh;
+  margin-right: 1rem; 
 }
 
 footer div {
