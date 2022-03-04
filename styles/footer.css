@@ -42,10 +42,13 @@ footer div {
 
 @media (min-width: 1152px) {
   footer {
+    position: absolute;
+    bottom: 0;
     flex-direction: row;
     padding: 0.2em 2em;
     font-size: 15px;
   }
+
   .links {
     width: 20%;
   }
